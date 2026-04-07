@@ -1,1 +1,4 @@
 Bandits/bandit14_ssh.private
+*.private
+*.key
+**/secrets/*
