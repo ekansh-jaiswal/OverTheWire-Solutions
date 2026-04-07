@@ -1,0 +1,12 @@
+### Pass : 390zFj2NETFVZkqYw8UEFdN6h40oGVtT
+
+### Solution : 
+Here we simply use the "diff" utility to find the difference between the 2 files as shown:
+diff passwords.old passswords.new 
+bandit17@bandit:~$ diff passwords.old passwords.new
+42c42
+< 390zFj2NETFVZkqYw8UEFdN6h40oGVtT
+---
+> x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
+
+

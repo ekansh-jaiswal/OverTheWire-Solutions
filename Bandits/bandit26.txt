@@ -1,0 +1,5 @@
+### Pass : s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ
+
+### Solution : 
+
+Since we are now inside the shell, we can use the SetUID ELF named as "bandit27-do" to read the content of /etc/bandit_pass/bandit27 and get out password. 

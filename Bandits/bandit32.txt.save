@@ -1,0 +1,12 @@
+### Pass : 3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K
+
+### Solution : 
+
+The properly wraps every form of input and converts it from [:lower] to [:UPPER] always.
+But we notice that this isn't applicable for numbers and special symbols. They are always untouched. 
+Using our knowledge of shell we know that The thought process comes from understanding the Linux Process Tree.
+When you log into an SSH session, the server starts a process. Usually, that process is /bin/bash. However, in your case, the server started a wrapper script (the "Uppercase Shell").
+In Linux shell scripting, $0 is the variable that holds the name of the "calling" shell or the script itself. 
+If you are inside a script named jail.sh, then $0 equals jail.sh. But if that script was executed by a shell, or if the shell is running interactively, 
+$0 often points to the binary that started the environment.
+
