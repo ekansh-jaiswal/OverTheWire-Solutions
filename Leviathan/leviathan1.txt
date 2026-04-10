@@ -1,0 +1,7 @@
+# Pass : leviathan1:3QJ3TgzHDq
+
+# Solution : 
+
+This is where complexity of reverse engineering begins. We are a given a binary which would run as leviathan2.
+But only if we give it the correct password. Our job is to decode the binary and extract the correct password out of it. 
+
